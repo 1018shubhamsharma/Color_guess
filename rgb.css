@@ -1,0 +1,79 @@
+body,html{
+    background-color: black;
+    margin: 0;
+    padding : 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#gameresult{
+    display: inline-block;
+    width: 20%;
+    font-size: inherit;
+    font-weight: 600px;
+}
+
+header{
+    text-align: center;
+    color: white;
+    background-color: rgb(59, 156, 188);
+    margin: 0;
+    padding-bottom: 5px;
+    padding-top:5px; 
+    font-weight: 50px;
+}
+#rgbdisplay{
+    font-size: 2em;
+    display: block;
+    text-transform: uppercase;
+}
+.levelofgame{
+    color: white;
+    background-color: rgb(59, 156, 188);
+}
+p button{
+    margin: 0 5px;
+   padding-left: 4px;
+   padding-right: 4px;
+   height: 100%;
+   padding-bottom: 1px;
+   background-color: white;
+   border: none;
+   color: rgb(59, 156, 188);
+   font-weight: bold;
+   font-size: 100%;
+    letter-spacing: 0.2em;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s
+}
+
+p button:hover{
+    color: white ;
+    background-color : rgb(59, 156, 188);
+}
+
+p{
+    background-color: white;
+    color : rgb(59, 156, 188);
+    margin-top: 0;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.blockcolor{
+    width: 30% ;
+    margin: 1.66% ;
+    float: left; 
+    padding-bottom:30% ;
+    border-radius: 15%;
+    transition: background 0.8s; 
+    -webkit-transition: background 0.8s; 
+    -moz-transition: background 0.8s;
+    background-color: aqua;
+}
+#container{
+    max-width: 600px;
+    margin: 0 auto;
+}
